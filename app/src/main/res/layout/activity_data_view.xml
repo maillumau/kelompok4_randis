@@ -219,14 +219,14 @@
             <TextView
                 android:id="@+id/textView25"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="34dp"
                 android:background="#F8FFEB3B"
                 android:text="TAHUN" />
 
             <TextView
                 android:id="@+id/id_tahun"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="34dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
