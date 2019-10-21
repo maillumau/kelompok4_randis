@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_marginRight="16dp"
+
+            android:layout_marginLeft="16dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:queryHint="Cari Anggota">
+
+        </SearchView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pt2"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="50dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp">
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F7DF10"
+            android:cacheColorHint="#050505"
+            android:dividerHeight="10.0sp" />
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
