@@ -40,12 +40,15 @@ public class DataActivity extends AppCompatActivity {
     public TextView teks_silinder;
     public TextView teks_tahun;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data_view);
         pencarian_query = getIntent().getStringExtra("PENCARIAN_QUERY");
-        Toast.makeText(getApplicationContext(), "" + pencarian_query + "", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), "" + pencarian_query + "", Toast.LENGTH_SHORT).show();
 
         teks_plat_nomor = findViewById(R.id.id_plat_nomor);
         teks_jabatan = findViewById(R.id.id_jabatan);
@@ -121,7 +124,7 @@ public class DataActivity extends AppCompatActivity {
             teks_no_rangka.setText(no_rangka);
 
 
-            Toast.makeText(getApplicationContext(),""+Konfigurasi.URL_HTTP+gambar+"", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(getApplicationContext(),""+Konfigurasi.URL_HTTP+gambar+"", Toast.LENGTH_SHORT).show();
             if(gambar == null || gambar == "" || gambar.length()==0 || gambar == "null"){
                 Picasso.get().load(Konfigurasi.URL_HTTP+"no_image.png").into((ImageView)findViewById(R.id.id_foto)) ;
             } else {
@@ -135,6 +138,19 @@ public class DataActivity extends AppCompatActivity {
 
         }
 
+
+    }
+
+    public void tombolBACK(View view) {
+        Intent intent = new Intent(DataActivity.this, CariActivity.class);
+        startActivity(intent);
+        DataActivity.this.finish();
+    }
+
+    public void TombolQuit(View view){
+
+        finish();
+        System.exit(0);
 
     }
 }

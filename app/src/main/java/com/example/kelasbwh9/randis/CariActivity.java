@@ -55,6 +55,7 @@ public class CariActivity extends AppCompatActivity implements SearchView.OnQuer
         intentObj.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         intentObj.putExtra("PENCARIAN_QUERY", query);
         startActivity(intentObj);
+        CariActivity.this.finish();
         return false;
     }
 

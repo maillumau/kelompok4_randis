@@ -9,16 +9,17 @@
 
     <TextView
         android:id="@+id/textView21"
-        android:layout_width="212dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="24dp"
+        android:layout_width="203dp"
+        android:layout_height="29dp"
         android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
         android:text="DATA KENDARAAN BEMOTOR"
         android:textColor="#FFEB3B"
         android:textStyle="bold"
+        app:fontFamily="sans-serif"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,12 +27,12 @@
     <TableLayout
         android:id="@+id/tableLayout"
         android:layout_width="335dp"
-        android:layout_height="266dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="325dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginLeft="24dp"
         android:layout_marginRight="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
         android:stretchColumns="*"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,16 +44,15 @@
             android:padding="5dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="NO_PLAT"
-                android:textStyle="bold" />
+                android:text="  NO_PLAT" />
 
             <TextView
                 android:id="@+id/id_plat_nomor"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -66,15 +66,15 @@
 
             <TextView
                 android:id="@+id/textView8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="JABATAN" />
+                android:text="  JABATAN" />
 
             <TextView
                 android:id="@+id/id_jabatan"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -87,15 +87,15 @@
 
             <TextView
                 android:id="@+id/textView10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="NO_MESIN" />
+                android:text="  NO_MESIN" />
 
             <TextView
                 android:id="@+id/id_mesin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -108,15 +108,15 @@
 
             <TextView
                 android:id="@+id/textView13"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="NO_RANGKA" />
+                android:text="  NO_RANGKA" />
 
             <TextView
                 android:id="@+id/id_rangka"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -130,15 +130,15 @@
 
             <TextView
                 android:id="@+id/textView15"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="JENIS" />
+                android:text="  JENIS" />
 
             <TextView
                 android:id="@+id/id_jenis"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -152,15 +152,15 @@
 
             <TextView
                 android:id="@+id/textView17"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="MERK" />
+                android:text="  MERK" />
 
             <TextView
                 android:id="@+id/id_merk"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -174,15 +174,15 @@
 
             <TextView
                 android:id="@+id/textView19"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="TYPE" />
+                android:text="  TYPE" />
 
             <TextView
                 android:id="@+id/id_type"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -196,15 +196,15 @@
 
             <TextView
                 android:id="@+id/textView23"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="SILINDER" />
+                android:text="  SILINDER" />
 
             <TextView
                 android:id="@+id/id_silinder"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -218,15 +218,15 @@
 
             <TextView
                 android:id="@+id/textView25"
-                android:layout_width="wrap_content"
-                android:layout_height="34dp"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
-                android:text="TAHUN" />
+                android:text="  TAHUN" />
 
             <TextView
                 android:id="@+id/id_tahun"
-                android:layout_width="wrap_content"
-                android:layout_height="34dp"
+                android:layout_width="70dp"
+                android:layout_height="25dp"
                 android:background="#F8FFEB3B"
                 android:text="TextView"
                 android:textStyle="bold" />
@@ -236,16 +236,92 @@
 
     <ImageView
         android:id="@+id/id_foto"
-        android:layout_width="333dp"
-        android:layout_height="135dp"
-        android:layout_marginStart="24dp"
+        android:layout_width="310dp"
+        android:layout_height="136dp"
+        android:layout_marginEnd="24dp"
         android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/barrier"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tableLayout"
         app:srcCompat="@drawable/potook1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_foto">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="tombolBACK"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/button_back"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="623dp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="TombolQuit"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/button_exit"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="623dp" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="8dp"
+                android:layout_height="40dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
 
 </android.support.constraint.ConstraintLayout>
