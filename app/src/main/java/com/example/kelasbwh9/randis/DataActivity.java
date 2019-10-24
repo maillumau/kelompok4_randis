@@ -124,11 +124,11 @@ public class DataActivity extends AppCompatActivity {
             teks_no_rangka.setText(no_rangka);
 
 
-            //Toast.makeText(getApplicationContext(),""+Konfigurasi.URL_HTTP+gambar+"", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(),""+Konfigurasi.URL_GAMBAR+gambar+"", Toast.LENGTH_SHORT).show();
             if(gambar == null || gambar == "" || gambar.length()==0 || gambar == "null"){
-                Picasso.get().load(Konfigurasi.URL_HTTP+"no_image.png").into((ImageView)findViewById(R.id.id_foto)) ;
+                Picasso.get().load(Konfigurasi.URL_GAMBAR+"no_image.png").into((ImageView)findViewById(R.id.id_foto)) ;
             } else {
-                Picasso.get().load(Konfigurasi.URL_HTTP+gambar).into((ImageView)findViewById(R.id.id_foto)) ;
+                Picasso.get().load(Konfigurasi.URL_GAMBAR+gambar).into((ImageView)findViewById(R.id.id_foto)) ;
             }
 
 
