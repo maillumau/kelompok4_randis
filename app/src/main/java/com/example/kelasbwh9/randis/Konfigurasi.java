@@ -2,9 +2,9 @@ package com.example.kelasbwh9.randis;
 
 public class Konfigurasi {
 
-    //public static final String URL_GET_ALL = "http://192.168.11.72/sisinfo/tampil_data.php";
-    public static final String URL_GET_BY = "http://192.168.168.147/randis_api/tampil_randis_by_nomor.php?nomor_plat=";
-    public static final String URL_HTTP = "http://192.168.168.147/randis_api/";
+    public static final String URL_GET_ALL = "http://kel4.cibuburhijau.buzz/tampil_data.php";
+    public static final String URL_GET_BY = "http://kel4.cibuburhijau.buzz/tampil_randis_by_nomor.php?nomor_plat=";
+    public static final String URL_HTTP = "http://kel4.cibuburhijau.buzz/";
 
     //JSON Tags
     public static final String TAG_JSON_ARRAY="result";
