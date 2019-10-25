@@ -2,7 +2,7 @@ package com.example.kelasbwh9.randis;
 
 public class Konfigurasi {
 
-    public static final String URL_GET_ALL = "http://randis.cibuburhijau.buzz/tampil_randis.php";
+    public static final String URL_GET_ALL = "http://randis.cibuburhijau.buzz/Api/tampil_randis";
     public static final String URL_GET_BY = "http://randis.cibuburhijau.buzz/Api/tampil_randis_by/";
     public static final String URL_HTTP = "http://randis.cibuburhijau.buzz/";
     public static final String URL_GAMBAR = "http://randis.cibuburhijau.buzz/uploads/foto_mobil/";
