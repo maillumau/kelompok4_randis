@@ -43,7 +43,7 @@ public class QRCodeActivity extends AppCompatActivity implements ZXingScannerVie
 
         Intent intentObj = new Intent(this, DataActivity.class);
         intentObj.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        intentObj.putExtra("QUERY_SEARCH", result.getText());
+        intentObj.putExtra("PENCARIAN_QUERY", result.getText());
         startActivity(intentObj);
     }
 }
